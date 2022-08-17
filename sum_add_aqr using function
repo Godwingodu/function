@@ -1,0 +1,20 @@
+list=[1,2,3,4,5,6,7,8,9,10]
+def sqr(list):
+    new=[]
+    for i in list:
+        new.append(i*i)
+    return (new)
+print(sqr(list))
+def add(list):
+    sum=0
+    for i in list:
+        sum+=i
+    return(sum)
+print(add(list))
+sum=0
+def sum(list):
+    product=1
+    for i in list:
+        product=product*i
+    return(product)
+print(sum(list))
